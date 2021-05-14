@@ -944,6 +944,10 @@
                 "inertia",
                 "laravel"
             ],
+            "support": {
+                "issues": "https://github.com/inertiajs/inertia-laravel/issues",
+                "source": "https://github.com/inertiajs/inertia-laravel/tree/v0.3.6"
+            },
             "funding": [
                 {
                     "url": "https://github.com/reinink",
@@ -1178,6 +1182,10 @@
                 "laravel",
                 "sanctum"
             ],
+            "support": {
+                "issues": "https://github.com/laravel/sanctum/issues",
+                "source": "https://github.com/laravel/sanctum"
+            },
             "time": "2021-05-11T21:03:57+00:00"
         },
         {
@@ -4835,6 +4843,10 @@
                 "laravel",
                 "routes"
             ],
+            "support": {
+                "issues": "https://github.com/tighten/ziggy/issues",
+                "source": "https://github.com/tighten/ziggy/tree/v1.1.0"
+            },
             "time": "2021-04-02T17:17:05+00:00"
         },
         {
