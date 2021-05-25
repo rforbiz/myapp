@@ -8,6 +8,11 @@
                     <div class="card-body">
                         I'm an example component.
                     </div>
+
+                    <div id="message">
+                        Message: {{ message }}
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -15,9 +20,13 @@
 </template>
 
 <script>
-    export default {
-        mounted() {
-            console.log('Component mounted.')
-        }
-    }
+export default {
+    mounted() {
+        console.log('Component mounted.')
+    },
+    data() {
+        return {message: 'Here from vue'}
+    },
+
+}
 </script>

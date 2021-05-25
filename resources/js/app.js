@@ -4,6 +4,10 @@ require('./bootstrap');
 import { createApp, h } from 'vue';
 import { App as InertiaApp, plugin as InertiaPlugin } from '@inertiajs/inertia-vue3';
 import { InertiaProgress } from '@inertiajs/progress';
+window.createApp = createApp;
+
+window.ExampleComponent = require('./components/ExampleComponent.vue').default;
+window.ModelComponent = require('./components/ModelComponent.vue').default;
 
 const el = document.getElementById('app');
 
@@ -19,3 +23,6 @@ createApp({
     .mount(el);
 
 InertiaProgress.init({ color: '#4B5563' });
+
+
+
